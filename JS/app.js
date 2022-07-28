@@ -189,12 +189,34 @@ area2Btn.addEventListener('click', function(){
 })
 
 
+// Click Me Animation
+function gc_detect_visibility(query,custom_funtion){
 
-//Logo
+    let calculator = function(query,custom_funtion){
 
-// logoHeader = document.getElementById("futureLogoHeader");
-// logoFooter = document.getElementById("futureLogoFooter");
-//
-// logoHeader.addEventListener('click', function(){
-//
-// })
+        let element = document.getElementById(query);
+
+        let element_top_offset = element.offsetTop;
+        let element_bottom_offset = element.offsetHeight + element_top_offset;
+
+        let screen_top_offset = window.scrollY;
+        let screen_bottom_offset = screen_top_offset + window.innerHeight;
+
+        if(element_top_offset > screen_top_offset && screen_bottom_offset > element_bottom_offset){
+            custom_funtion(element);
+        }
+    }
+
+    calculator(query,custom_funtion);
+
+    document.addEventListener('scroll',calculator.bind(null,query,custom_funtion));
+}
+
+gc_detect_visibility('firstProfile', function(element){
+    setTimeout(function() {
+        profile2.style.animation="clickMe 0.5s linear"
+    }, 1000);
+    setTimeout(function() {
+        profile1.style.animation="clickMe 0.5s linear"
+    }, 1500);
+})

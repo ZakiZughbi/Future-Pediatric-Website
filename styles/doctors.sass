@@ -63,6 +63,7 @@
                 margin: 0 1% 0%
                 flex-grow: 1
                 max-width: 300px
+                cursor: pointer
 
                 -webkit-transition: 1s
                 -moz-transition: 1s
@@ -70,11 +71,17 @@
                 -o-transition: 1s
                 transition: 1s
 
+                //animation: clickMe 0.5s linear
+                animation-delay: 1.5s
+
+                &:hover
+                    background: darken($green, 7%)
+
                 img
                     width: 120%
                     position: absolute
                     //bottom: -50px
-                    bottom: -50px
+                    bottom: -40px
                     border-radius: 20px
 
                     -webkit-transition: 1s
@@ -94,12 +101,19 @@
                 overflow: hidden
                 margin: 0 1% 0
                 flex-grow: 1
+                cursor: pointer
 
                 -webkit-transition: 1s
                 -moz-transition: 1s
                 -ms-transition: 1s
                 -o-transition: 1s
                 transition: 1s
+
+                //animation: clickMe 0.5s linear
+                animation-delay: 1s
+
+                &:hover
+                    background: darken($blue, 7%)
 
                 img
                     width: 100%
