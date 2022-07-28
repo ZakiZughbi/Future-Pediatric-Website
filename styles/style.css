@@ -195,6 +195,10 @@
   color: #F5F5F5;
   transition: 0.3s;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 @media (max-width: 600px) {
   .hero .heroContentContainer .heroBtnContainer .cta1, .hero .heroContentContainer .heroBtnContainer .cta2 {
@@ -393,12 +397,12 @@
 }
 @media (max-width: 1100px) {
   .section3 img {
-    width: 400px;
+    width: 350px;
   }
 }
-@media (max-width: 930px) {
+@media (max-width: 950px) {
   .section3 img {
-    width: 350px;
+    width: 320px;
   }
 }
 @media (max-width: 860px) {
