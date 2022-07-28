@@ -41,68 +41,77 @@
 
     .doctorContent
         @include flexCenter()
+        align-items: flex-start
         margin: 0 7% 0
         flex-wrap: wrap
         @include screenMax(670px)
             display: none
-        .profile1
-            background: $green
-            position: relative
-            height: 360px
-            width: 23%
-            border-radius: 20px
-            overflow: hidden
-            margin: 0 1% 0%
-            flex-grow: 1
-            max-width: 300px
-
-            -webkit-transition: 1s
-            -moz-transition: 1s
-            -ms-transition: 1s
-            -o-transition: 1s
-            transition: 1s
-
-            img
-                width: 120%
-                position: absolute
-                //bottom: -50px
-                bottom: 0px
-                border-radius: 20px
-
-                -webkit-transition: 1s
-                -moz-transition: 1s
-                -ms-transition: 1s
-                -o-transition: 1s
-                transition: 1s
-
-        .profile2
-            background: $blue
-            position: relative
-            height: 460px
-            max-width: 300px
-            width: 23%
-            border-radius: 20px
-            overflow: hidden
-            margin: 0 1% 0
-            flex-grow: 1
-
-            -webkit-transition: 1s
-            -moz-transition: 1s
-            -ms-transition: 1s
-            -o-transition: 1s
-            transition: 1s
-
-            img
+        .profileContainer
+            @include flexCenter()
+            align-items: center
+            width: 50%
+            @include screenMax(1206px)
                 width: 100%
-                position: absolute
-                bottom: 0px
+            .profile1
+                background: $green
+                position: relative
+                height: 320px
+                //width: 23%
+                width: 50%
                 border-radius: 20px
+                overflow: hidden
+                margin: 0 1% 0%
+                flex-grow: 1
+                max-width: 300px
 
                 -webkit-transition: 1s
                 -moz-transition: 1s
                 -ms-transition: 1s
                 -o-transition: 1s
                 transition: 1s
+
+                img
+                    width: 120%
+                    position: absolute
+                    //bottom: -50px
+                    bottom: -50px
+                    border-radius: 20px
+
+                    -webkit-transition: 1s
+                    -moz-transition: 1s
+                    -ms-transition: 1s
+                    -o-transition: 1s
+                    transition: 1s
+
+            .profile2
+                background: $blue
+                position: relative
+                height: 420px
+                max-width: 300px
+                //width: 23%
+                width: 50%
+                border-radius: 20px
+                overflow: hidden
+                margin: 0 1% 0
+                flex-grow: 1
+
+                -webkit-transition: 1s
+                -moz-transition: 1s
+                -ms-transition: 1s
+                -o-transition: 1s
+                transition: 1s
+
+                img
+                    width: 100%
+                    position: absolute
+                    bottom: 0px
+                    border-radius: 20px
+
+                    -webkit-transition: 1s
+                    -moz-transition: 1s
+                    -ms-transition: 1s
+                    -o-transition: 1s
+                    transition: 1s
 
         .textContainer
             text-align: left

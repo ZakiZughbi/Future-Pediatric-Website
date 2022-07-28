@@ -70,7 +70,15 @@ let text = document.getElementById("doctorInfo").getElementsByTagName("p")[0];
 
 profile1.addEventListener("click", function(){
     title.textContent = "Dr. Yahya Rasheed"
-    text.textContent = "Yahya F. Rasheed practices pediatrics between 6 and 10 years and obtained his medical degree from the University of Medicine & Health Sciences St. Kitts. After graduating he started to work with his father (Dr. Fouad Rasheed) here at Future Pediatric Group, trying to put as much effort as he can. He had several incidents where his patients would call him at 3:00 am on his day off. He would get up and cater to the mother and her child until their worries were eased. He hasn’t taken a true day off since he started working here at the practice. “No matter the hour, no matter the day. If a mother calls concerned about her child, it is my duty as a doctor to be there.”"
+    //Zaki's
+    // text.textContent = "Yahya F. Rasheed practices pediatrics between 6 and 10 years and obtained his medical degree from the University of Medicine & Health Sciences St. Kitts. After graduating he started to work with his father (Dr. Fouad Rasheed) here at Future Pediatric Group, trying to put as much effort as he can. He had several incidents where his patients would call him at 3:00 am on his day off. He would get up and cater to the mother and her child until their worries were eased. He hasn’t taken a true day off since he started working here at the practice. “No matter the hour, no matter the day. If a mother calls concerned about her child, it is my duty as a doctor to be there.”"
+
+    //Mami's
+    // text.textContent = "Dr. Fouad Rasheed, MB BCH, has been a doctor for over 47 years. In 1975, he received his medical degree from the Bani Swief Branch of the University of Cairo's Faculty of Medicine. “We welcome and celibrate people of all cultures, races, beliefs, and abilities and to our family centered medical home.”"
+
+    //Ameenah's
+    text.textContent = "Dr. Yahya F. Rasheed has been practicing pediatrics for 6 to 10 years. He obtained a medical degree from the University of Medicine & Health Sciences in St. Kitts. After graduation, he joined Future Pediatric Group, working closely with his father (Dr. Fouad Rasheed). A doctor like this is always available to help. “No matter the hour or day, if a mother calls concerned about her child, it is my duty as a doctor to be there.”"
+
 
     profile1.style.height="420px"
     profile2.style.height="320px"
@@ -81,7 +89,15 @@ profile1.addEventListener("click", function(){
 
 profile2.addEventListener("click", function(){
     title.textContent = "Dr. Fouad Rasheed"
-    text.textContent = "Dr. Fouad Rasheed, MB BCH, has been a doctor for over 47 years. In 1975, he received his medical degree from the Bani Swief Branch of the University of Cairo's Faculty of Medicine. He dedicates his life to treating children. One particular day, he saw a child 6 hours after calling. After treating the child, he realized that the mother was sicker than the child. This was because no doctor would see her, they were all booked for the week. He had no choice except to examine and treat her immediately.“Parents Expect us to go beyond with their child, so we always deliver.”"
+    //Zaki's
+    // text.textContent = "Dr. Fouad Rasheed, MB BCH, has been a doctor for over 47 years. In 1975, he received his medical degree from the Bani Swief Branch of the University of Cairo's Faculty of Medicine. He dedicates his life to treating children. One particular day, he saw a child 6 hours after calling. After treating the child, he realized that the mother was sicker than the child. This was because no doctor would see her, they were all booked for the week. He had no choice except to examine and treat her immediately.“Parents Expect us to go beyond with their child, so we always deliver.”"
+
+    //Mami's
+    // text.textContent = "Yahya F. Rasheed practices pediatrics between 6 and 10 years and obtained his medical degree from the University of Medicine & Health Sciences St. Kitts. After graduating he started to work with his father (Dr. Fouad Rasheed) here at Future Pediatric Group. “We pride ourselves on providing comprehensive, compationate care to infants, children and young adults.”"
+
+    //Ameenah's
+    text.textContent = "Dr. Fouad Rasheed, MB BCH, has been practicing medicine for over 47 years. He earned his medical degree from the University of Cairo's Faculty of Medicine's Bani Swief Branch in 1975. His professional life is dedicated to treating children. “Parents expect us to go beyond with their child, so we always deliver.”"
+
 
     profile1.style.height="320px"
     profile2.style.height="420px"
