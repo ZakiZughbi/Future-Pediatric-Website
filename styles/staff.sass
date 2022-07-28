@@ -1,0 +1,55 @@
+.secondaryHeader-navContainer
+    background: $purple
+
+#staffNavList
+    list-style: none
+    display: flex
+    justify-content: space-around
+    font-weight: 700
+    font-size: 20px
+
+    li
+        a
+            text-decoration: none
+            color: $white
+            transition: 0.3s
+            &:hover
+                color: $blue
+    @include screenMax(800px)
+        display: none
+
+// .secondaryHeader-navList
+//     list-style: none
+//     display: flex
+//     justify-content: space-around
+//     font-weight: 700
+//     font-size: 20px
+//     li
+//         a
+//             text-decoration: none
+//             color: $white
+//             transition: 0.3s
+//             &:hover
+//                 color: $blue
+//     @include screenMax(800px)
+//         display: none
+
+
+.weValueContainer
+    margin: 0
+    padding: 7%
+    p
+        font-size: 25px
+        @include screenMax(540px)
+            @include bubble()
+
+.staffAboutSection
+    margin-top: 80px
+
+.appyContainer
+    background: $green
+    margin: 0
+    h3
+        color: $white
+    div
+        margin-top: 40px

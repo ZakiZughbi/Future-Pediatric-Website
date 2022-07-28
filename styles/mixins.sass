@@ -1,0 +1,52 @@
+@mixin flexCenter()
+    display: flex
+    align-items: center
+    justify-content: center
+
+
+@mixin Btn($color1, $color2)
+    width: 300px
+    padding: 20px 0px 20px
+    margin: 0 25px 0
+    font-size: 22px
+    font-weight: 600
+    text-align: center
+    border-radius: 7px
+    border: none
+    color: $white
+    cursor: pointer
+    transition: 0.3s
+
+    &:nth-child(1)
+        background: $color1
+        &:hover
+            background: darken($color1, 10%)
+    &:nth-child(2)
+        background: $color2
+        &:hover
+            background: darken($color2, 10%)
+    @include screenMax(800px)
+        width: 70%
+        margin: 20px 0 12px
+
+@mixin bubble()
+    background: #FFFF
+    padding: 15px
+    border-radius: 20px
+    opacity: 1
+// @mixin BtnColors($color1, $color2)
+//     max-width: 200px
+//     width: 40%
+//     padding: 4% 3% 4%
+//     margin: 3%
+//     font-size: 22px
+//     font-weight: 600
+//     text-align: center
+//     border-radius: 7px
+//     border: none
+//     color: $white
+//     cursor: pointer
+//     &:nth-child(1)
+//         background: $color1
+//     &:nth-child(2)
+//         background: $color2

@@ -1,0 +1,125 @@
+.section5
+    width: 100%
+    margin: 7% 0 5%
+    h3
+        font-size: 55px
+        color: darken($darkPink, 10%)
+        text-align: left
+        margin: 5% 5% 2%
+        @include screenMax(530px)
+            font-size: 55px
+
+    .doctorContentPhone
+        display: none
+        @include screenMax(670px)
+            display: block
+        .profile1-phone, .profile2-phone
+            width: 80%
+            height: auto
+            border-radius: 20px
+            overflow: hidden
+            margin: 10%
+            img
+                width: 100%
+                border-radius: 20px
+                margin-bottom: -6px
+
+        .textContainer-phone
+            text-align: center
+            width: 80%
+            margin: 0 10% 0
+            @include screenMax(540px)
+                @include bubble()
+            h4
+                color: darken($darkPink, 10%)
+                font-size: 30px
+                margin-bottom: 15px
+            p
+                font-size: 18px
+                color: $black
+
+
+    .doctorContent
+        @include flexCenter()
+        margin: 0 7% 0
+        flex-wrap: wrap
+        @include screenMax(670px)
+            display: none
+        .profile1
+            background: $green
+            position: relative
+            height: 360px
+            width: 23%
+            border-radius: 20px
+            overflow: hidden
+            margin: 0 1% 0%
+            flex-grow: 1
+            max-width: 300px
+
+            -webkit-transition: 1s
+            -moz-transition: 1s
+            -ms-transition: 1s
+            -o-transition: 1s
+            transition: 1s
+
+            img
+                width: 120%
+                position: absolute
+                //bottom: -50px
+                bottom: 0px
+                border-radius: 20px
+
+                -webkit-transition: 1s
+                -moz-transition: 1s
+                -ms-transition: 1s
+                -o-transition: 1s
+                transition: 1s
+
+        .profile2
+            background: $blue
+            position: relative
+            height: 460px
+            max-width: 300px
+            width: 23%
+            border-radius: 20px
+            overflow: hidden
+            margin: 0 1% 0
+            flex-grow: 1
+
+            -webkit-transition: 1s
+            -moz-transition: 1s
+            -ms-transition: 1s
+            -o-transition: 1s
+            transition: 1s
+
+            img
+                width: 100%
+                position: absolute
+                bottom: 0px
+                border-radius: 20px
+
+                -webkit-transition: 1s
+                -moz-transition: 1s
+                -ms-transition: 1s
+                -o-transition: 1s
+                transition: 1s
+
+        .textContainer
+            text-align: left
+            width: 25%
+            margin: 0 5% 0
+            margin-top: 40px
+            min-width: 410px
+            flex-grow: 1
+            h4
+                color: $darkPink
+                font-size: 30px
+                margin-bottom: 15px
+            p
+                font-size: 18px
+                color: $black
+
+.profile1-phone
+    background: $blue
+.profile2-phone
+    background: $green

@@ -1,0 +1,55 @@
+.section9
+    width: 100%
+    @include flexCenter()
+    flex-direction: column
+    //background: $green
+    padding: 7% 0 7%
+    margin-bottom: 100px
+    h3
+        text-align: center
+        font-size: 55px
+        color: darken($darkPink, 10%)
+        margin: 0 30px 0
+    p
+        font-size: 30px
+        color: $black
+        text-align: center
+        margin: 2% 0 5%
+        padding: 0 3% 0
+    .heroBtnContainer
+        width: 100%
+        @include flexCenter()
+        @include screenMax(800px)
+            flex-direction: column
+        a
+            display: block
+            text-decoration: none
+            @include flexCenter()
+            @include screenMax(800px)
+                width: 100%
+                margin: 20px 0 12px
+        .cta1, .cta2
+            width: 300px
+            padding: 20px 0px 20px
+            margin: 0 25px 0
+            font-size: 22px
+            font-weight: 600
+            text-align: center
+            border-radius: 7px
+            border: none
+            color: $white
+            cursor: pointer
+            transition: 0.3s
+            @include screenMax(800px)
+                width: 70%
+
+
+
+        .cta1
+            background: $purple
+            &:hover
+                background: darken($purple, 10%)
+        .cta2
+            background: $blue
+            &:hover
+                background: darken($blue, 10%)

@@ -6,240 +6,400 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Future Pediatric Group">
     <title>Future Pediatric Group | Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="mainContainer">
-
-        <div class="navContainer">
-            <div class="logoContainer">
-                <img src="" alt="Future Pediatric Logo">
-            </div>
-            <div class="navBtns">
-                <ul class="navList">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Service</li>
-                    <li>Staff</li>
-                    <li>Forms</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
+        <div class="backgroundContainers">
+            <img id="background1" src="./Assets/Background/background.png" alt="">
         </div>
+        <div class="mainContainer">
 
-        <div class="hero">
-            <h1>Future Pediatric Group</h1>
-            <h2>We Go Beyond! Unlike Any Other Pediatrician</h2>
-            <div class="heroBtnContainer">
-                <button class="cta1">Get In Touch</button>
-                <button class="cta2 ctaAbout">About</button>
-            </div>
-        </div>
+            <div class="hero">
+                <div class="navContainer">
+                    <div class="logoContainer">
+                        <a href="#">
+                            <img src="./Assets/Logo/logo.png" alt="Future Pediatric Logo" id="futureLogoHeader">
+                        </a>
+                    </div>
+                    <div class="navBtns" id="myTopnav">
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img id="menuBars" src="./Assets/Menu/red-menu.png" alt=""></span>
+                        <ul class="navList">
+                            <li><a href="#sect3">About</a></li>
+                            <li><a href=#sect6>Services</a></li>
+                            <li><a href="/staff.html">Staff</a></li>
+                            <li><a href="/forms.html">Forms</a></li>
+                            <li><a href="#sect8">Contact</a></li>
 
-        <div class="section1 patientNumSection">
-            <div class="text">
-                <h3>How Many Patients?</h3>
-                <p>We have treated and catered to many patients for over 47 years. Up until now we estimated that we treated about 300 patients.</p>
-            </div>
-            <div class="patientNum">
-                <div>
-                    <p>300</p>
-                </div>
-            </div>
-        </div>
+                        </ul>
+                    </div>
+                    <div class="mySidenavContainer">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#sect3" onclick="closeNav()">About</a>
+                            <a href="#sect6" onclick="closeNav()">Services</a>
+                            <a href="/staff.html" onclick="closeNav()">Staff</a>
+                            <a href="/forms.html" onclick="closeNav()">Forms</a>
+                            <a href="#sect8" onclick="closeNav()">Contact</a>
+                        </div>
+                        <div id="whiteBar" class="closebtn" onclick="closeNav()"></div>
+                    </div>
 
-        <div class="section2 diverseSection">
-            <h3>We’ve Treated Patients From All Backgrounds</h3>
-            <div class="imageBubbleContainer">
-                <div class="bubbleSet1">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-                <div class="bubbleSet2">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="section3 aboutSection">
-            <div class="ourStorySection">
-                <div class="text">
-                    <h3>Our Story</h3>
-                    <p>Future Pediatrics was founded for one reason and one reason only. To help as many children as we can mentally, physically, and emotionally. Almost every member of this practice has children of their own. We understand the struggles of a parent, especially mothers with the stress involved in looking after a child. We are tired of doctors just prescribing medicine. Pediatricians should be there for all aspects of the child, that’s why this pediatric was founded.</p>
-                </div>
-                <div class="imgContainer">
-                    <img src="" alt="">
-                </div>
-            </div>
-
-            <div class="aboutUsSection">
-                <div class="text">
-                    <h3>About Us</h3>
-                    <p>Future Pediatrics was founded for one reason and one reason only. To help as many children as we can mentally, physically, and emotionally. Almost every member of this practice has children of their own. We understand the struggles of a parent, especially mothers with the stress involved in looking after a child. We are tired of doctors just prescribing medicine. Pediatricians should be there for all aspects of the child, that’s why this pediatric was founded.</p>
-                </div>
-                <div class="imgContainer">
-                    <img src="" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="section4 missionSection">
-            <h2>To walk hand and hand with the child and his family from birth to adulthood, to ensure their physical and mental well-being.</h2>
-        </div>
-
-        <div class="section5 doctorsSection">
-            <h3>Meet The Doctors</h3>
-            <div class="doctorsContainer">
-                <div class="imgContainer">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-            </div>
-            <div class="textContainer">
-                <h4>Dr. Fouad Rasheed</h4>
-                <p>Dr. Fouad Rasheed, MB BCH, has been a doctor for over 47 years. In 1975, he received his medical degree from the Bani Swief Branch of the University of Cairo's Faculty of Medicine. <br><br>He dedicates his life to treating children. One particular day, he saw a child 6 hours after calling. After treating the child, he realized that the mother was sicker than the child. This was because no doctor would see her, they were all booked for the week. He had no choice except to examine and treat her immediately.<br><br>“Parents Expect us to go beyond with their child, so we always deliver.”</p>
-            </div>
-        </div>
-
-        <div class="section6 sevicesContainer">
-            <h3>Services</h3>
-            <div class="serviceCardContainer">
-                <div class="card1">
-                    <h4>Well Vist</h4>
-                    <img src="" alt="">
-                    <p>We assess the physical, mental and emotional well-being of your child. We make sure that each child is on a steady and normal progression as they get older.</p>
-                </div>
-                <div class="card2">
-                    <h4>Sick Vist</h4>
-                    <img src="" alt="">
-                    <p>We provide immediate, same-day attention to our patients. We prefer our sick visits remain virtual to keep everyone safe due to COVID-19.</p>
-                </div>
-                <div class="card3">
-                    <h4>Evaluation</h4>
-                    <img src="" alt="">
-                    <p>We review your child's progress in reaching expected developmental milestones as they grow.</p>
-                </div>
-            </div>
-            <div class="circleBarContainer"></div>
-        </div>
-
-        <div class="section7 testimonialSection">
-            <h3>Testimonials</h3>
-            <div class="arrowPrevious arrow1"></div>
-            <div class="testimonialContainer">
-                <img src="" alt="">
-                <p>Great staff, great service always helpfull and will respond promptly. All of them and both office.</p>
-            </div>
-            <div class="arrowNext arrow2"></div>
-            <div class="circleBarContainer"></div>
-        </div>
-
-        <div class="section8 contactSection">
-            <h3>Contact</h3>
-            <div class="nameContainer">
-                <p>Clifton</p>
-                <p>/</p>
-                <p>Prospect</p>
-            </div>
-            <div class="weekContainer">
-
-                <div class="card1 monCard">
-                    <h4>Mon</h4>
-                    <p>10:00am</p>
-                    <p>6:00pm</p>
                 </div>
 
-                <div class="card2 tueCard">
-                    <h4>Mon</h4>
-                    <p>10:00am</p>
-                    <p>6:00pm</p>
-                </div>
+                <img class="mainImg" src="./Assets/Index/Hero/heroImg.png" alt="kids playing" class="heroImg">
+                <div class="heroContentContainer">
+                    <h1>Future Pediatric Group</h1>
+                    <h2>We Go Beyond! Unlike Any Other Pediatrician</h2>
+                    <div class="heroBtnContainer">
+                        <a href="tel:9737726999">
+                            <button class="cta1 ctaGet">Get In Touch</button>
+                        </a>
+                        <a href="#sect5">
+                            <button class="cta2 ctaAbout">Meet Doctors</button>
+                        </a>
 
-                <div class="card3 wedCard">
-                    <h4>Mon</h4>
-                    <p>10:00am</p>
-                    <p>6:00pm</p>
-                </div>
-
-                <div class="card4 thuCard">
-                    <h4>Mon</h4>
-                    <p>10:00am</p>
-                    <p>6:00pm</p>
-                </div>
-
-                <div class="card5 friCard">
-                    <h4>Mon</h4>
-                    <p>10:00am</p>
-                    <p>6:00pm</p>
-                </div>
-
-                <div class="card6 satCard">
-                    <h4>Mon</h4>
-                    <p>10:00am</p>
-                    <p>6:00pm</p>
-                </div>
-
-                <div class="card7 sunCard">
-                    <h4>Mon</h4>
-                    <p>10:00am</p>
-                    <p>6:00pm</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="contactInfoContainer">
-                <div class="num">
-                    <img src="" alt="">
-                    <h4>973-772-6999</h4>
-                </div>
-                <div class="addy">
-                    <img src="" alt="">
-                    <h4>1414 Main Ave #14, Clifton, NJ 07011</h4>
-                </div>
-            </div>
-
-            <div class="toggleContainer">
-                <button class="cliftonBtn">Clifton</button>
-                <button class="prospectBtn">Prospect</button>
-            </div>
-        </div>
-
-        <div class="section9 insuranceContainer">
-            <h3>Insurances Accepted</h3>
-            <div class="arrowPrevious arrow1"></div>
-            <div class="insuranceImgContainer">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-            <div class="arrowNext arrow2"></div>
-            <div class="heroBtnContainer">
-                <button class="cta1">Get In Touch</button>
-                <button class="cta2 ctaAbout">About</button>
-            </div>
-        </div>
-
-        <div class="section10 footer">
-            <div class="footerContentContainer">
-                <img src="" alt="" class="logo">
-                <div class="line"></div>
-                <div class="socialContainer">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
+            <div class="section1 patientNumSection" id="sect1">
                 <div class="textContainer">
-                    <p>Future Pediatrics Group</p>
-                    <p>Clifton & Prospect Park</p>
+                    <h3>How Many Patients?</h3>
+                    <p>We have treated and catered to many patients for over 47 years. Up until now we estimated that we treated about 300 patients.</p>
+                </div>
+                <div class="patientNum">
+                    <div class="outer">
+                        <div class="inner">
+                            <p>300</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="signture">
-                <p>Designed by Lova Designs</p>
-            </div>
-        </div>
 
-    </div>
-</body>
+            <div class="section2 diverseSection" id="sect2">
+                <div class="h3Bubble">
+                    <h3>We’ve Treated Patients From All Backgrounds</h3>
+                </div>
+                <div class="imageBubbleContainer">
+                    <img src="./Assets/Index/Collage/part1.png" alt="blue boy & school girl">
+                    <img src="./Assets/Index/Collage/part2.png" alt="three girls & balloon girl">
+                </div>
+            </div>
+
+            <div class="section3 aboutSection" id="sect3">
+                <div class="ourStory">
+                    <div class="text">
+                        <h3>Our Story</h3>
+                        <p>Future Pediatrics was founded for one reason and one reason only. To help as many children as we can mentally, physically, and emotionally. Almost every member of this practice has children of their own. We understand the struggles of a parent, especially mothers with the stress involved in looking after a child. We are tired of doctors just prescribing medicine. Pediatricians should be there for all aspects of the child, that’s why this pediatric was founded.</p>
+                    </div>
+                    <img src="./Assets/Index/About/store-front.png" alt="store front">
+                </div>
+
+                <div class="aboutUs">
+                    <img src="./Assets/Index/About/ipad.png" alt="kid using an ipad">
+                    <div class="text">
+                        <h3>About Us</h3>
+                        <p>Future Pediatrics was founded for one reason and one reason only. To help as many children as we can mentally, physically, and emotionally. Almost every member of this practice has children of their own. We understand the struggles of a parent, especially mothers with the stress involved in looking after a child. We are tired of doctors just prescribing medicine. Pediatricians should be there for all aspects of the child, that’s why this pediatric was founded.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section4 missionSection" id="sect4">
+                <h2>To walk hand and hand with the child and his family from birth to adulthood, to ensure their physical and mental well-being.</h2>
+            </div>
+
+            <div class="section5 doctorsSection" id="sect5">
+                <h3>Meet The Doctors</h3>
+                <div class="doctorContent">
+                    <div class="profile1" id="firstProfile">
+                        <img src="./Assets/Index/Profile Pics/dr-yahya.png" alt="Dr. Yahya Rasheed">
+                    </div>
+                    <div class="profile2" id="secondProfile">
+                        <img src="./Assets/Index/Profile Pics/dr-rasheed.png" alt="Dr. Fouad Rasheed">
+                    </div>
+                    <div class="textContainer" id="doctorInfo">
+                        <h4>Dr. Fouad Rasheed</h4>
+                        <p>Dr. Fouad Rasheed, MB BCH, has been a doctor for over 47 years. In 1975, he received his medical degree from the Bani Swief Branch of the University of Cairo's Faculty of Medicine. <br><br>He dedicates his life to treating children. One particular day, he saw a child 6 hours after calling. After treating the child, he realized that the mother was sicker than the child. This was because no doctor would see her, they were all booked for the week. He had no choice except to examine and treat her immediately.<br><br>“Parents Expect us to go beyond with their child, so we always deliver.”</p>
+                    </div>
+
+                </div>
+                <div class="doctorContentPhone">
+                    <div class="profile1-phone">
+                        <img src="./Assets/Index/Profile Pics/dr-rasheed.png" alt="Dr. Fouad Rasheed">
+                    </div>
+                    <div class="textContainer-phone textContainer1">
+                        <h4>Dr. Fouad Rasheed</h4>
+                        <p>Dr. Fouad Rasheed, MB BCH, has been a doctor for over 47 years. In 1975, he received his medical degree from the Bani Swief Branch of the University of Cairo's Faculty of Medicine. He dedicates his life to treating children. One particular day, he saw a child 6 hours after calling. After treating the child, he realized that the mother was sicker than the child. This was because no doctor would see her, they were all booked for the week. He had no choice except to examine and treat her immediately.“Parents Expect us to go beyond with their child, so we always deliver.”</p>
+                    </div>
+                    <div class="profile2-phone">
+                        <img src="./Assets/Index/Profile Pics/dr-yahya.png" alt="Dr. Yahya Rasheed">
+                    </div>
+                    <div class="textContainer-phone textContainer2">
+                        <h4>Dr. Yahya Rasheed</h4>
+                        <p>Yahya F. Rasheed practices pediatrics between 6 and 10 years and obtained his medical degree from the University of Medicine & Health Sciences St. Kitts. After graduating he started to work with his father (Dr. Fouad Rasheed) here at Future Pediatric Group, trying to put as much effort as he can. He had several incidents where his patients would call him at 3:00 am on his day off. He would get up and cater to the mother and her child until their worries were eased. He hasn’t taken a true day off since he started working here at the practice. “No matter the hour, no matter the day. If a mother calls concerned about her child, it is my duty as a doctor to be there.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="section6 sevicesContainer" id="sect6">
+                <h3>Services</h3>
+                <div class="serviceCards-container">
+                    <div class="slide-container swiper">
+                        <div class="slide-content">
+                            <div class="card-wrapper swiper-wrapper">
+                                <div class="card card1 swiper-slide">
+                                    <div class="image-content">
+                                        <h2 class="name">Well Visit</h2>
+                                        <div class="card-image">
+                                            <img src="../Assets/Icons/Service/well-visit.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <p class="description">We assess the physical, mental and emotional well-being of your child. We make sure that each child is on a steady and normal progression as they get older.</p>
+                                    </div>
+                                </div>
+                                <div class="card card2 swiper-slide">
+                                    <div class="image-content">
+                                        <h2 class="name">Sick Visit</h2>
+                                        <div class="card-image">
+                                            <img src="../Assets/Icons/Service/sick-visit.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <p class="description">We provide immediate, same-day attention to our patients. We prefer our sick visits remain virtual to keep everyone safe due to COVID-19. <br> <br> </p>
+                                    </div>
+                                </div>
+                                <div class="card card3 swiper-slide">
+                                    <div class="image-content">
+                                        <h2 class="name">Evaluation</h2>
+                                        <div class="card-image">
+                                            <img src="../Assets/Icons/Service/evaluation.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <p class="description">We review your child's progress in reaching expected developmental milestones as they grow. <br><br><br> </p>
+                                    </div>
+                                </div>
+                                <div class="card card4 swiper-slide">
+                                    <div class="image-content">
+                                        <h2 class="name">Testing</h2>
+                                        <div class="card-image">
+                                            <img src="../Assets/Icons/Service/testing.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <p class="description">We offer office testing for your child: Flu Testing, Certified Fluoride Treatments, Glucose Testing, Lead Level, Nebulizer Treatments, Mononucleosis, etc.
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card card5 swiper-slide">
+                                    <div class="image-content">
+                                        <h2 class="name">Walk Ins</h2>
+                                        <div class="card-image">
+                                            <img src="../Assets/Icons/Service/walk-ins.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <p class="description">Unless of an emergency, we do not accept walk-ins. Even if your child is sick we advise scheduling an appointment, and they will be seen within 24 hours.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section7 testimonialSection" id="sect7">
+                <h3>Testimonials</h3>
+
+                <div class="testimonials-container">
+                    <div class="sub-testimonials-container">
+                        <div class="testimonials-swiper mySwiper">
+                            <div class="swiper-wrapper">
+                            <div class="slide1 swiper-slide">
+                                <div class="imgContainer">
+                                    <img src="./Assets/Index/Testimonials/two-kids-talking.png" alt="">
+                                </div>
+                                <div class="textContainer">
+                                    <p>Great staff, great service always helpfull and will respond promptly. All of them and both office.</p>
+                                </div>
+                            </div>
+                            <div class="slide2 swiper-slide">
+                                <div class="imgContainer">
+                                    <img src="./Assets/Index/Testimonials/kid-glasses.png" alt="">
+                                </div>
+                                <div class="textContainer">
+                                    <p>Great doctors and staff. Dr. Rasheed is outstanding I am glad I was he’s patient and also glad my siblings are he’s patient. He is very thorough with details and also very helpful with what is recommended.</p>
+                                </div>
+                            </div>
+                            <div class="slide3 swiper-slide">
+                                <div class="imgContainer">
+                                    <img src="./Assets/Index/Testimonials/baby-hat.png" alt="">
+                                </div>
+                                <div class="textContainer">
+                                    <p>Excellent behavior with patients and parents.</p>
+                                </div>
+                            </div>
+                            <div class="slide4 swiper-slide">
+                                <div class="imgContainer">
+                                    <img src="./Assets/Index/Testimonials/asain-girl.png" alt="">
+                                </div>
+                                <div class="textContainer">
+                                    <p>Dr. Rasheed is an excellent Physician with many years of experience, compassionate and knowledgeable. He attended my kids throughout their infancy and teen years. I highly recommend this Doctor.👍🌸🙂</p>
+                                </div>
+                            </div>
+                            <div class="slide5 swiper-slide">
+                                <div class="imgContainer">
+                                    <img src="./Assets/Index/Testimonials/kids-headphones.png" alt="">
+                                </div>
+                                <div class="textContainer">
+                                    <p>I bring my children here. Great service and care. They really care, and put in a lot of hard work.</p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="arrowContainer">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="section8 contactSection" id="sect8">
+                <h3>Contact</h3>
+                <p class="areaName" id="areaTitleName">Clifton</p>
+                <div class="nameContainer" id="areaNameContainer">
+                    <p>Clifton</p>
+                    <p>/</p>
+                    <p>Prospect</p>
+                </div>
+                <div class="weekContainer" id="contactWeekContainer">
+
+                    <div class="weekCard monCard" id="xx">
+                        <h4>Mon</h4>
+                        <p>10:00am</p>
+                        <p>7:00pm</p>
+                    </div>
+
+                    <div class="weekCard tueCard">
+                        <h4>Tue</h4>
+                        <p>10:00am</p>
+                        <p>7:00pm</p>
+                    </div>
+
+                    <div class="weekCard wedCard">
+                        <h4>Wed</h4>
+                        <p>10:00am</p>
+                        <p>7:00pm</p>
+                    </div>
+
+                    <div class="weekCard thuCard">
+                        <h4>Thu</h4>
+                        <p>10:00am</p>
+                        <p>7:00pm</p>
+                    </div>
+
+                    <div class="weekCard friCard">
+                        <h4>Fri</h4>
+                        <p>10:00am</p>
+                        <p>7:00pm</p>
+                    </div>
+
+                    <div class="weekCard satCard">
+                        <h4>Sat</h4>
+                        <p>9:00am</p>
+                        <p>2:00pm</p>
+                    </div>
+
+                    <div class="weekCard sunCard">
+                        <h4>Sun</h4>
+                        <p>Closed</p>
+                    </div>
+                </div>
+
+                <div class="contactInfoContainer">
+                    <a href="tel:+19737726999" id="numATag">
+                        <div class="num" id="phoneNum">
+                            <img src="./Assets/Icons/Contact/phone.png" alt="phone">
+                            <h4>973-772-6999</h4>
+                        </div>
+
+                    </a>
+                    <a href="https://www.google.com/search?client=firefox-b-1-d&q=future%20pediatric%20group&newwindow=1&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsa53mYDmSbrlgcko1vlDbmg5wCX3g:1658851888928&rflfq=1&num=10&rldimm=869784483567007609&lqi=ChZmdXR1cmUgcGVkaWF0cmljIGdyb3VwSKrts9rlgICACFokEAAQARACGAAYARgCIhZmdXR1cmUgcGVkaWF0cmljIGdyb3VwkgENbWVkaWNhbF9ncm91cA&ved=2ahUKEwih9cvs-Jb5AhU5lIkEHZNEAWYQvS56BAgDEAE&sa=X&rlst=f#rlfi=hd:;si:3057884733486029281,l,ChZmdXR1cmUgcGVkaWF0cmljIGdyb3VwSImz49blgICACFokEAAQARACGAAYARgCIhZmdXR1cmUgcGVkaWF0cmljIGdyb3VwkgEGZG9jdG9y;mv:[[40.934796899999995,-74.145901],[40.8805798,-74.1751918]]" id="addressATag">
+                        <div class="addy" id="address">
+                            <img src="./Assets/Icons/Contact/address.png" alt="house">
+                            <h4>1414 Main Ave #14, Clifton, NJ 07011</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="toggleContainer">
+                    <button class="cliftonBtn" id="clifBtn">Clifton</button>
+                    <button class="prospectBtn" id="prosBtn">Prospect</button>
+                </div>
+            </div>
+
+            <div class="section9 insuranceContainer" id="sect9">
+                <h3>Insurances Accepted</h3>
+                <p>We accepted all insureances.</p>
+                <div class="heroBtnContainer">
+                    <a href="tel:9737726999">
+                        <button class="cta1">Get In Touch</button>
+                    </a>
+                    <a href="#sect3">
+                        <button class="cta2 ctaAbout">About</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="section10 footer" id="sect10">
+                <div class="footerContentContainer">
+                    <a href="#"><img src="./Assets/Logo/logo.png" alt="" class="logo" id="futureLogoFooter"></a>
+                    <div class="line"></div>
+                    <div class="socialContainer">
+                        <a href="https://www.facebook.com/">
+                            <img src="./Assets/Icons/Social/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="https://www.google.com/maps/place/Future+Pediatrics/@40.8834843,-74.1474702,15z/data=!4m5!3m4!1s0x0:0x2a6fc9f6b78659e1!8m2!3d40.8834843!4d-74.1474702">
+                            <img src="./Assets/Icons/Social/google.png" alt="Google">
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <img src="./Assets/Icons/Social/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                    <div class="textContainer">
+                        <p>Future Pediatrics Group</p>
+                        <p>Clifton & Prospect Park</p>
+                    </div>
+                </div>
+                <div class="signture">
+                    <a href="https://lovadesigns.com/"><p>Designed by Lova Designs</p></a>
+                </div>
+            </div>
+
+        </div>
+    </body>
+    <!-- Swiper JS -->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="JS/app.js"></script>
 </html>

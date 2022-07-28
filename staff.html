@@ -4,9 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Staff</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div class="backgroundContainers">
+        <img id="background1" src="./Assets/Background/background.png" alt="">
+    </div>
+    <div class="mainContainer">
 
+        <div class="hero">
+            <div class="navContainer secondaryHeader-navContainer">
+                <div class="logoContainer">
+                    <a href="./index.html">
+                        <img src="./Assets/Logo/logo.png" alt="Future Pediatric Logo" id="futureLogoHeader">
+                    </a>
+                </div>
+                <div class="navBtns secondaryHeader-navBtns" id="myTopnav">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img id="menuBars" src="./Assets/Menu/red-menu.png" alt=""></span>
+                    <ul class="secondaryHeader-navList" id="staffNavList">
+                        <li><a href="index.html#sect3">About</a></li>
+                        <li><a href="./index.html#sect6">Services</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="./forms.html">Forms</a></li>
+                        <li><a href="./index.html#sect8">Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="mySidenavContainer">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="./index.html#sect3" onclick="closeNav()">About</a>
+                        <a href="./index.html#sect6" onclick="closeNav()">Services</a>
+                        <a href="#" onclick="closeNav()">Staff</a>
+                        <a href="./forms.html" onclick="closeNav()">Forms</a>
+                        <a href="./index.html#sect8" onclick="closeNav()">Contact</a>
+                    </div>
+                    <div id="whiteBar" class="closebtn" onclick="closeNav()"></div>
+                </div>
+
+            </div>
+
+            <img class="mainImg" src="./Assets/Staff/staff-header.jpg" alt="kids playing" class="heroImg">
+            <div class="heroContentContainer">
+                <h1>Staff</h1>
+                <div class="heroBtnContainer">
+                    <a href="tel:9737726999">
+                        <button class="cta1 ctaGet">Get In Touch</button>
+                    </a>
+                    <a href="tel:9737726999">
+                        <button class="cta2 ctaAbout">Get Hired</button>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section9 insuranceContainer weValueContainer" id="sect9">
+            <h3>What We Value</h3>
+            <p>Future Pediatrics was founded for one reason and one reason only. To help as many children as we can mentally, physically, and emotionally. Almost every member of this practice has children of their own. We understand the struggles of a parent, especially mothers with the stress involved in looking after a child.</p>
+        </div>
+
+        <div class="section4 missionSection" id="sect4">
+            <h2>To walk hand and hand with the child and his family from birth to adulthood, to ensure their physical and mental well-being.</h2>
+        </div>
+
+        <div class="section3 aboutSection staffAboutSection" id="sect3">
+            <div class="ourStory">
+                <div class="text">
+                    <h3>Who We’re Looking For</h3>
+                    <p>Future Pediatrics was founded for one reason and one reason only. To help as many children as we can mentally, physically, and emotionally. Almost every member of this practice has children of their own. We understand the struggles of a parent, especially mothers with the stress involved in looking after a child. We are tired of doctors just prescribing medicine. Pediatricians should be there for all aspects of the child, that’s why this pediatric was founded.</p>
+                </div>
+                <img src="./Assets/Staff/kid-taking-photo.png" alt="stack of blocks">
+            </div>
+
+            <div class="aboutUs">
+                <img src="./Assets/Staff/block-stack.png" alt="kid taking a photo">
+                <div class="text">
+                    <h3>Why You Should Chose Us</h3>
+                    <p>Future Pediatrics was founded for one reason and one reason only. To help as many children as we can mentally, physically, and emotionally. Almost every member of this practice has children of their own. We understand the struggles of a parent, especially mothers with the stress involved in looking after a child. We are tired of doctors just prescribing medicine. Pediatricians should be there for all aspects of the child, that’s why this pediatric was founded.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section9 insuranceContainer appyContainer" id="sect9">
+            <h3>Appy For A Job</h3>
+            <div class="heroBtnContainer">
+                <a href="tel:9737726999">
+                    <button class="cta1">Get In Touch</button>
+                </a>
+                <a href="tel:9737726999">
+                    <button class="cta2 ctaAbout">Get Hired</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="section10 footer" id="sect10">
+            <div class="footerContentContainer">
+                <a href="./index.html"><img src="./Assets/Logo/logo.png" alt="" class="logo" id="futureLogoFooter"></a>
+                <div class="line"></div>
+                <div class="socialContainer">
+                    <a href="https://www.facebook.com/">
+                        <img src="./Assets/Icons/Social/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.google.com/maps/place/Future+Pediatrics/@40.8834843,-74.1474702,15z/data=!4m5!3m4!1s0x0:0x2a6fc9f6b78659e1!8m2!3d40.8834843!4d-74.1474702">
+                        <img src="./Assets/Icons/Social/google.png" alt="Google">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="./Assets/Icons/Social/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+                <div class="textContainer">
+                    <p>Future Pediatrics Group</p>
+                    <p>Clifton & Prospect Park</p>
+                </div>
+            </div>
+            <div class="signture">
+                <a href="https://lovadesigns.com/"><p>Designed by Lova Designs</p></a>
+            </div>
+        </div>
+
+    </div>
 </body>
+    <script src="JS/app.js"></script>
 </html>

@@ -1,0 +1,114 @@
+.formsContainer
+    .boxContainer
+        width: 100%
+        display: grid
+        grid-template-columns: repeat(10, 1fr)
+        grid-gap: 50px
+        padding: 100px 0 100px
+        @include screenMax(1250px)
+            grid-gap: 20px
+        @include screenMax(1110px)
+            grid-template-columns: repeat(5, 1fr)
+            grid-gap: 50px
+        @include screenMax(960px)
+            grid-gap: 20px
+        @include screenMax(850px)
+            grid-template-columns: repeat(4, 1fr)
+            grid-gap: 50px
+        @include screenMax(660px)
+            grid-gap: 20px
+        @include screenMax(570px)
+            @include flexCenter
+            flex-direction: column
+
+
+        .formBox
+            @include flexCenter()
+            flex-direction: column
+            width: 250px
+            height: 250px
+            border-radius: 13px
+            img
+                width: 33%
+            h4
+                font-size: 30px
+                color: $white
+                margin: 15px 0 25px
+            a
+                button
+                    background: $yellow
+                    border: 0
+                    font-size: 20px
+                    padding: 10px 20px 10px
+                    border-radius: 7px
+                    font-size: 20px
+                    font-weight: 600
+                    transition: 0.2s
+                    &:hover
+                        background: darken($yellow, 5%)
+
+.DPB
+    background: $darkPink
+    button
+        color: $darkPink
+.PB
+    background: lighten($purple, 2%)
+    button
+        color: lighten($purple, 2%) 
+.BB
+    background: $blue
+    button
+        color: $blue
+.GB
+    background: $green
+    button
+        color: $green
+
+//GRID
+.formBox1, .formBox5, .formBox9
+    grid-column: 2/4
+    @include screenMax(1110px)
+        grid-column: 2/3
+    @include screenMax(850px)
+        grid-column: 2/3
+
+.formBox2, .formBox6, .formBox10
+    grid-column: 4/6
+    @include screenMax(1110px)
+        grid-column: 3/4
+    @include screenMax(850px)
+        grid-column: 3/4
+
+.formBox3, .formBox7, .formBox11
+    grid-column: 6/8
+    @include screenMax(1110px)
+        grid-column: 4/5
+    @include screenMax(850px)
+        grid-column: 2/3
+
+.formBox4
+    grid-column: 8/10
+    @include screenMax(1110px)
+        grid-column: 2/3
+        grid-row: 4
+    @include screenMax(850px)
+        grid-column: 3/4
+        grid-row: auto
+
+.formBox8
+    grid-column: 8/10
+    @include screenMax(1110px)
+        grid-column: 3/4
+        grid-row: 4
+    @include screenMax(850px)
+        grid-column: 3/4
+        grid-row: auto
+
+.formBox12
+    grid-column: 8/10
+    @include screenMax(1110px)
+        grid-column: 4/5
+        grid-row: 4
+    @include screenMax(850px)
+        grid-column: 3/4
+        grid-row: auto
