@@ -77,7 +77,7 @@ profile1.addEventListener("click", function(){
     // text.textContent = "Dr. Fouad Rasheed, MB BCH, has been a doctor for over 47 years. In 1975, he received his medical degree from the Bani Swief Branch of the University of Cairo's Faculty of Medicine. “We welcome and celibrate people of all cultures, races, beliefs, and abilities and to our family centered medical home.”"
 
     //Ameenah's
-    text.textContent = "Dr. Yahya F. Rasheed has been practicing pediatrics for 6 to 10 years. He obtained a medical degree from the University of Medicine & Health Sciences in St. Kitts. After graduation, he joined Future Pediatric Group, working closely with his father (Dr. Fouad Rasheed). A doctor like this is always available to help. “No matter the hour or day, if a mother calls concerned about her child, it is my duty as a doctor to be there.”"
+    text.textContent = "Dr. Yahya F. Rasheed has been practicing pediatrics for 6 to 10 years. He obtained a medical degree from the University of Medicine & Health Sciences in St. Kitts. After graduation, he joined Future Pediatric Group, working closely with Dr. Fouad Rasheed (his father). A doctor like this is always available to help. “No matter the hour or day, if a mother calls concerned about her child, it is my duty as a doctor to be there.”"
 
 
     profile1.style.height="420px"
