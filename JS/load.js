@@ -6,6 +6,6 @@ window.addEventListener('load', function() {
     const script2 = document.createElement('script');
     script1.src = 'JS/swiper-bundle.min.js';
     script2.src = 'JS/app.js';
-    document.body.appendChild(script1);
+    document.head.appendChild(script1);
     document.body.appendChild(script2);
 });
